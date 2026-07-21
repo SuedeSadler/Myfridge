@@ -23,10 +23,10 @@
 </nav>
 
 <script>
-  const supabase = window.supabase.createClient(SUPABASE_URL, SUPABASE_ANON_KEY);
+  const supabaseClient = window.supabase.createClient(SUPABASE_URL, SUPABASE_ANON_KEY);
 
   (async () => {
-    const { data: sessionData } = await supabase.auth.getSession();
+    const { data: sessionData } = await supabaseClient.auth.getSession();
     if (!sessionData.session) {
       window.location.href = "login.html";
       return;

@@ -42,12 +42,12 @@
 </nav>
 
 <script>
-  const supabase = window.supabase.createClient(SUPABASE_URL, SUPABASE_ANON_KEY);
+  const supabaseClient = window.supabase.createClient(SUPABASE_URL, SUPABASE_ANON_KEY);
   let currentUser = null;
   let extractedItems = [];
 
   (async () => {
-    const { data: sessionData } = await supabase.auth.getSession();
+    const { data: sessionData } = await supabaseClient.auth.getSession();
     if (!sessionData.session) { window.location.href = "login.html"; return; }
     currentUser = sessionData.session.user;
   })();
@@ -179,7 +179,7 @@
         source: "receipt"
       }));
 
-      const { error } = await supabase.from("inventory_items").insert(rows);
+      const { error } = await supabaseClient.from("inventory_items").insert(rows);
       if (error) throw error;
 
       document.getElementById("reviewStep").style.display = "none";
