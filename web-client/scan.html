@@ -153,7 +153,7 @@
     try {
       // Pull the user's photo library, then ask for AI-assisted matches
       // against each extracted item name.
-      const { data: library } = await supabase
+      const { data: library } = await supabaseClient
         .from("item_photos")
         .select("keyword, image_url")
         .eq("user_id", currentUser.id);
