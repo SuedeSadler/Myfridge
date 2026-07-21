@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sign in — Fridge Tracker</title>
+<link rel="stylesheet" href="styles.css">
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+<script src="config.js"></script>
+</head>
+<body>
+<div class="container" style="padding-top: 80px;">
+  <h1>Fridge Tracker</h1>
+  <p class="muted" style="margin-bottom: 24px;">Sign in with the household account.</p>
+
+  <input type="email" id="email" placeholder="Email">
+  <input type="password" id="password" placeholder="Password">
+  <div id="error" class="error" style="display:none;"></div>
+  <button id="signInBtn">Sign in</button>
+</div>
+
+<script>
+  const supabase = window.supabase.createClient(SUPABASE_URL, SUPABASE_ANON_KEY);
+
+  // Already signed in? Skip straight to the dashboard.
+  supabase.auth.getSession().then(({ data }) => {
+    if (data.session) window.location.href = "index.html";
+  });
+
+  document.getElementById("signInBtn").addEventListener("click", async () => {
+    const email = document.getElementById("email").value.trim();
+    const password = document.getElementById("password").value;
+    const errorEl = document.getElementById("error");
+    errorEl.style.display = "none";
+
+    const { error } = await supabase.auth.signInWithPassword({ email, password });
+    if (error) {
+      errorEl.textContent = error.message;
+      errorEl.style.display = "block";
+      return;
+    }
+    window.location.href = "index.html";
+  });
+</script>
+</body>
+</html>

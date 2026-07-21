@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Photo library — Fridge Tracker</title>
+<link rel="stylesheet" href="styles.css">
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+<script src="config.js"></script>
+</head>
+<body>
+<div class="container">
+  <h1>Photo library</h1>
+  <p class="muted">Upload a photo and label it — new items with a matching name will use it automatically.</p>
+
+  <div class="card" style="margin-top: 16px;">
+    <input type="text" id="keywordInput" placeholder="Label (e.g. milk, spinach)">
+    <input type="file" id="photoInput" accept="image/*" style="display:none;">
+    <button id="chooseBtn" class="secondary" style="margin-bottom: 12px;">Choose photo</button>
+    <p id="fileName" class="muted" style="margin-bottom: 12px;"></p>
+    <div id="uploadError" class="error" style="display:none;"></div>
+    <button id="uploadBtn" disabled>Add to library</button>
+  </div>
+
+  <h2>Your library</h2>
+  <div id="library" class="grid"></div>
+</div>
+
+<nav class="nav">
+  <a href="index.html">Fridge</a>
+  <a href="scan.html">Scan receipt</a>
+  <a href="photos.html" class="active">Photo library</a>
+</nav>
+
+<script>
+  const supabase = window.supabase.createClient(SUPABASE_URL, SUPABASE_ANON_KEY);
+  let currentUser = null;
+  let selectedFile = null;
+
+  (async () => {
+    const { data: sessionData } = await supabase.auth.getSession();
+    if (!sessionData.session) { window.location.href = "login.html"; return; }
+    currentUser = sessionData.session.user;
+    loadLibrary();
+  })();
+
+  document.getElementById("chooseBtn").addEventListener("click", () => {
+    document.getElementById("photoInput").click();
+  });
+
+  document.getElementById("photoInput").addEventListener("change", (e) => {
+    selectedFile = e.target.files[0];
+    document.getElementById("fileName").textContent = selectedFile ? selectedFile.name : "";
+    checkCanUpload();
+  });
+
+  document.getElementById("keywordInput").addEventListener("input", checkCanUpload);
+
+  function checkCanUpload() {
+    const keyword = document.getElementById("keywordInput").value.trim();
+    document.getElementById("uploadBtn").disabled = !(keyword && selectedFile);
+  }
+
+  document.getElementById("uploadBtn").addEventListener("click", async () => {
+    const errorEl = document.getElementById("uploadError");
+    errorEl.style.display = "none";
+    document.getElementById("uploadBtn").disabled = true;
+
+    const keyword = document.getElementById("keywordInput").value.trim();
+    const path = `${currentUser.id}/${Date.now()}-${selectedFile.name}`;
+
+    try {
+      const { error: uploadError } = await supabase.storage
+        .from("item-photos")
+        .upload(path, selectedFile);
+      if (uploadError) throw uploadError;
+
+      const { data: publicUrlData } = supabase.storage
+        .from("item-photos")
+        .getPublicUrl(path);
+
+      const { error: insertError } = await supabase
+        .from("item_photos")
+        .insert({ user_id: currentUser.id, keyword, image_url: publicUrlData.publicUrl });
+      if (insertError) throw insertError;
+
+      document.getElementById("keywordInput").value = "";
+      document.getElementById("fileName").textContent = "";
+      selectedFile = null;
+      checkCanUpload();
+      loadLibrary();
+    } catch (err) {
+      errorEl.textContent = err.message;
+      errorEl.style.display = "block";
+      document.getElementById("uploadBtn").disabled = false;
+    }
+  });
+
+  async function loadLibrary() {
+    const { data: photos, error } = await supabase
+      .from("item_photos")
+      .select("*")
+      .order("created_at", { ascending: false });
+
+    const libraryEl = document.getElementById("library");
+    if (error) {
+      libraryEl.innerHTML = `<p class="error">${error.message}</p>`;
+      return;
+    }
+    if (photos.length === 0) {
+      libraryEl.innerHTML = '<p class="muted">No photos yet — add your first one above.</p>';
+      return;
+    }
+
+    libraryEl.innerHTML = photos.map(photo => `
+      <div class="grid-item">
+        <img src="${photo.image_url}" alt="${photo.keyword}">
+        <p>${photo.keyword}</p>
+        <button class="danger" style="margin-top:6px; padding:8px; font-size:13px;" data-delete="${photo.id}">Remove</button>
+      </div>
+    `).join("");
+
+    libraryEl.querySelectorAll("[data-delete]").forEach(btn => {
+      btn.addEventListener("click", async (e) => {
+        const id = e.target.dataset.delete;
+        await supabase.from("item_photos").delete().eq("id", id);
+        loadLibrary();
+      });
+    });
+  }
+</script>
+</body>
+</html>

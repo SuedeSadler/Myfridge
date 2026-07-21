@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Fridge Tracker</title>
+<link rel="stylesheet" href="styles.css">
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+<script src="config.js"></script>
+</head>
+<body>
+<div class="container">
+  <h1>Your fridge</h1>
+  <p class="muted" id="summary">Loading…</p>
+
+  <div id="items" class="grid" style="margin-top: 20px;"></div>
+</div>
+
+<nav class="nav">
+  <a href="index.html" class="active">Fridge</a>
+  <a href="scan.html">Scan receipt</a>
+  <a href="photos.html">Photo library</a>
+</nav>
+
+<script>
+  const supabase = window.supabase.createClient(SUPABASE_URL, SUPABASE_ANON_KEY);
+
+  (async () => {
+    const { data: sessionData } = await supabase.auth.getSession();
+    if (!sessionData.session) {
+      window.location.href = "login.html";
+      return;
+    }
+
+    const { data: items, error } = await supabase
+      .from("inventory_items")
+      .select("*")
+      .order("date_added", { ascending: false });
+
+    const summaryEl = document.getElementById("summary");
+    const itemsEl = document.getElementById("items");
+
+    if (error) {
+      summaryEl.textContent = "Couldn't load inventory: " + error.message;
+      return;
+    }
+
+    summaryEl.textContent = items.length + " item" + (items.length === 1 ? "" : "s") + " in the fridge";
+
+    if (items.length === 0) {
+      itemsEl.innerHTML = '<p class="muted">Nothing here yet — scan a receipt to get started.</p>';
+      return;
+    }
+
+    itemsEl.innerHTML = items.map(item => {
+      const qty = item.unit ? `${item.quantity} ${item.unit}` : `${item.quantity}`;
+      const photo = item.photo_url
+        ? `<img src="${item.photo_url}" alt="${item.name}">`
+        : `<div class="placeholder">${(item.category || "?").slice(0, 2).toUpperCase()}</div>`;
+      return `
+        <div class="grid-item">
+          ${photo}
+          <p>${item.name}</p>
+          <p class="sub">${qty}${item.category ? " · " + item.category : ""}</p>
+        </div>
+      `;
+    }).join("");
+  })();
+</script>
+</body>
+</html>

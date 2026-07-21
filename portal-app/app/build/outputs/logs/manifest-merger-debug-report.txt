@@ -1,0 +1,485 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/nancyqin/Downloads/fridge-tracker/portal-app/app/src/main/AndroidManifest.xml:2:1-29:12
+INJECTED from /Users/nancyqin/Downloads/fridge-tracker/portal-app/app/src/main/AndroidManifest.xml:2:1-29:12
+INJECTED from /Users/nancyqin/Downloads/fridge-tracker/portal-app/app/src/main/AndroidManifest.xml:2:1-29:12
+INJECTED from /Users/nancyqin/Downloads/fridge-tracker/portal-app/app/src/main/AndroidManifest.xml:2:1-29:12
+MERGED from [androidx.camera:camera-video:1.3.4] /Users/nancyqin/.gradle/caches/transforms-4/5a0c68bfb9ec655769340ec2056ce445/transformed/jetified-camera-video-1.3.4/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.camera:camera-view:1.3.4] /Users/nancyqin/.gradle/caches/transforms-4/32e6058b09deb50c5ab875720763d844/transformed/jetified-camera-view-1.3.4/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.camera:camera-lifecycle:1.3.4] /Users/nancyqin/.gradle/caches/transforms-4/689e6c8267ae2c934139851dd2b9c983/transformed/jetified-camera-lifecycle-1.3.4/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.camera:camera-camera2:1.3.4] /Users/nancyqin/.gradle/caches/transforms-4/f4e54843bfb0150cb303af653ba91e33/transformed/jetified-camera-camera2-1.3.4/AndroidManifest.xml:17:1-36:12
+MERGED from [androidx.camera:camera-core:1.3.4] /Users/nancyqin/.gradle/caches/transforms-4/cb610fc2af703d3bbca24ef66ed51c4d/transformed/jetified-camera-core-1.3.4/AndroidManifest.xml:17:1-36:12
+MERGED from [io.coil-kt:coil-compose:2.6.0] /Users/nancyqin/.gradle/caches/transforms-4/34a3e883853bf1e4485d20c3def898f6/transformed/jetified-coil-compose-2.6.0/AndroidManifest.xml:2:1-7:12
+MERGED from [io.coil-kt:coil-compose-base:2.6.0] /Users/nancyqin/.gradle/caches/transforms-4/58398db76d2ed7641ab79033b36362ca/transformed/jetified-coil-compose-base-2.6.0/AndroidManifest.xml:2:1-7:12
+MERGED from [io.coil-kt:coil:2.6.0] /Users/nancyqin/.gradle/caches/transforms-4/575841b595a1dd7ec7016e395806910a/transformed/jetified-coil-2.6.0/AndroidManifest.xml:2:1-7:12
+MERGED from [io.coil-kt:coil-base:2.6.0] /Users/nancyqin/.gradle/caches/transforms-4/cf9aef0df2dc1e20d0e43a0fae382d00/transformed/jetified-coil-base-2.6.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.appcompat:appcompat-resources:1.6.1] /Users/nancyqin/.gradle/caches/transforms-4/8a6165219489d2f8fddf4c2d1f1586fd/transformed/jetified-appcompat-resources-1.6.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.appcompat:appcompat:1.6.1] /Users/nancyqin/.gradle/caches/transforms-4/805ebf6094f92ec0fe8b8aea2a2650a2/transformed/appcompat-1.6.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.fragment:fragment:1.3.6] /Users/nancyqin/.gradle/caches/transforms-4/4132709c71f078398c2c3f8dc6069833/transformed/fragment-1.3.6/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.activity:activity:1.9.0] /Users/nancyqin/.gradle/caches/transforms-4/da8f17234d647ce5000725c992f0acb2/transformed/jetified-activity-1.9.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.activity:activity-ktx:1.9.0] /Users/nancyqin/.gradle/caches/transforms-4/a36cd352c5837ded7230629d5b3b077a/transformed/jetified-activity-ktx-1.9.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.material3:material3-android:1.2.1] /Users/nancyqin/.gradle/caches/transforms-4/5f847aee98e7f6924100ef9a994a17f9/transformed/jetified-material3-release/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.compose.material:material-ripple-android:1.6.8] /Users/nancyqin/.gradle/caches/transforms-4/6d3b9d5047c1402557e6ea7474c2dca5/transformed/jetified-material-ripple-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.material:material-icons-core-android:1.6.8] /Users/nancyqin/.gradle/caches/transforms-4/1ec5bc24164ea15eaa599bc46fcdcbe5/transformed/jetified-material-icons-core-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.material:material-android:1.6.8] /Users/nancyqin/.gradle/caches/transforms-4/84fc3545e559fb037df63ebb31eacf9e/transformed/jetified-material-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.animation:animation-core-android:1.6.8] /Users/nancyqin/.gradle/caches/transforms-4/a860c8c3f038d1563f0f393347dd8ede/transformed/jetified-animation-core-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.animation:animation-android:1.6.8] /Users/nancyqin/.gradle/caches/transforms-4/4882a67a65addc37daca70e04e9f4cc4/transformed/jetified-animation-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.foundation:foundation-layout-android:1.6.8] /Users/nancyqin/.gradle/caches/transforms-4/eaf7da8ee0a6ccabaa82f95c5935d1c7/transformed/jetified-foundation-layout-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.foundation:foundation-android:1.6.8] /Users/nancyqin/.gradle/caches/transforms-4/1dc1098448922dfbb98babc52344c574/transformed/jetified-foundation-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-tooling-data-android:1.6.8] /Users/nancyqin/.gradle/caches/transforms-4/b2156ba308fb7c2ef773367dca76bf04/transformed/jetified-ui-tooling-data-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-unit-android:1.6.8] /Users/nancyqin/.gradle/caches/transforms-4/922fd2d9ce5a8e7b9e9e6e70ac9ad92e/transformed/jetified-ui-unit-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-geometry-android:1.6.8] /Users/nancyqin/.gradle/caches/transforms-4/f30550579935534b44d825bd23ec9104/transformed/jetified-ui-geometry-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-util-android:1.6.8] /Users/nancyqin/.gradle/caches/transforms-4/74c754e6f83fe7641863f1847e0f63b6/transformed/jetified-ui-util-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-text-android:1.6.8] /Users/nancyqin/.gradle/caches/transforms-4/95e149f16a31323cec868ad0ed5d1f11/transformed/jetified-ui-text-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-graphics-android:1.6.8] /Users/nancyqin/.gradle/caches/transforms-4/e02a9722c9d96a6461255cb456b78efd/transformed/jetified-ui-graphics-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-tooling-preview-android:1.6.8] /Users/nancyqin/.gradle/caches/transforms-4/21d2fc980aeac91b0f90fd9d0dc27c81/transformed/jetified-ui-tooling-preview-release/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.compose.ui:ui-tooling-android:1.6.8] /Users/nancyqin/.gradle/caches/transforms-4/7051f105afd08b30475d52ac977fd3cd/transformed/jetified-ui-tooling-release/AndroidManifest.xml:17:1-28:12
+MERGED from [androidx.activity:activity-compose:1.9.0] /Users/nancyqin/.gradle/caches/transforms-4/7ce21ea58041deb45cdec9221f595c33/transformed/jetified-activity-compose-1.9.0/AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.accompanist:accompanist-drawablepainter:0.32.0] /Users/nancyqin/.gradle/caches/transforms-4/0afb95943570d4b7c3654f11163a0334/transformed/jetified-accompanist-drawablepainter-0.32.0/AndroidManifest.xml:17:1-23:12
+MERGED from [io.github.jan-tennert.supabase:realtime-kt-android-debug:2.5.4] /Users/nancyqin/.gradle/caches/transforms-4/a90ea28e6bfb3e3dbd08749b69ecf06c/transformed/jetified-realtime-kt-debug/AndroidManifest.xml:2:1-7:12
+MERGED from [io.github.jan-tennert.supabase:postgrest-kt-android-debug:2.5.4] /Users/nancyqin/.gradle/caches/transforms-4/8c830021e1e10ea54baeab36f6220c91/transformed/jetified-postgrest-kt-debug/AndroidManifest.xml:2:1-7:12
+MERGED from [io.github.jan-tennert.supabase:storage-kt-android-debug:2.5.4] /Users/nancyqin/.gradle/caches/transforms-4/e39ddb6ad1c254082a588d2e324901e2/transformed/jetified-storage-kt-debug/AndroidManifest.xml:2:1-20:12
+MERGED from [io.github.jan-tennert.supabase:gotrue-kt-android-debug:2.5.4] /Users/nancyqin/.gradle/caches/transforms-4/e5cbb2ff7b473aaa7b6ec8b98818cb8d/transformed/jetified-gotrue-kt-debug/AndroidManifest.xml:2:1-20:12
+MERGED from [io.github.jan-tennert.supabase:supabase-kt-android-debug:2.5.4] /Users/nancyqin/.gradle/caches/transforms-4/ab92a0dcd79a930aac79751123aef5c4/transformed/jetified-supabase-kt-debug/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.emoji2:emoji2-views-helper:1.3.0] /Users/nancyqin/.gradle/caches/transforms-4/639d4533efeccb573ebd738053a75e76/transformed/jetified-emoji2-views-helper-1.3.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.emoji2:emoji2:1.3.0] /Users/nancyqin/.gradle/caches/transforms-4/0e4da39534f5a6aa8fe414d10f7ba090/transformed/jetified-emoji2-1.3.0/AndroidManifest.xml:17:1-35:12
+MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] /Users/nancyqin/.gradle/caches/transforms-4/b67f3956b6899221865b4ed9642668e6/transformed/jetified-savedstate-ktx-1.2.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.savedstate:savedstate:1.2.1] /Users/nancyqin/.gradle/caches/transforms-4/9211af025be3649fb41f5e1ceab0488e/transformed/jetified-savedstate-1.2.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] /Users/nancyqin/.gradle/caches/transforms-4/19f6f39a99afa218e3d6126cf8e84ea7/transformed/loader-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.8.3] /Users/nancyqin/.gradle/caches/transforms-4/815020522ca0ab58af2c5e994237b6a0/transformed/lifecycle-viewmodel-2.8.3/AndroidManifest.xml:2:1-5:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-android:2.8.3] /Users/nancyqin/.gradle/caches/transforms-4/23bc443343c9b65c6615b49fcd53b3a7/transformed/jetified-lifecycle-viewmodel-release/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx-android:2.8.3] /Users/nancyqin/.gradle/caches/transforms-4/c3d19d1d9abe923b0c59e66069c2700a/transformed/jetified-lifecycle-runtime-ktx-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-runtime-compose-android:2.8.3] /Users/nancyqin/.gradle/caches/transforms-4/b288f5bff97da7899eb236b64ca69b37/transformed/jetified-lifecycle-runtime-compose-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.8.3] /Users/nancyqin/.gradle/caches/transforms-4/c31955d179918344ea6d6560621ee73a/transformed/jetified-lifecycle-livedata-core-ktx-2.8.3/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-runtime-android:2.8.3] /Users/nancyqin/.gradle/caches/transforms-4/01b11f414a180bd6c1db29eb7f8baf95/transformed/jetified-lifecycle-runtime-release/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.8.3] /Users/nancyqin/.gradle/caches/transforms-4/27a703cd934116cd18b1a39f296cb4c9/transformed/jetified-lifecycle-viewmodel-savedstate-2.8.3/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.8.3] /Users/nancyqin/.gradle/caches/transforms-4/a672ba56ee46012291adc073b8294555/transformed/jetified-lifecycle-viewmodel-ktx-2.8.3/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.8.3] /Users/nancyqin/.gradle/caches/transforms-4/5a06e69a90ade68baf16459b0338d6cd/transformed/lifecycle-livedata-core-2.8.3/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.8.3] /Users/nancyqin/.gradle/caches/transforms-4/4b18d872920d760a54157dcebb20a9e8/transformed/lifecycle-livedata-2.8.3/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-process:2.8.3] /Users/nancyqin/.gradle/caches/transforms-4/8b708b774aae8fef50c3736291e0b4e2/transformed/jetified-lifecycle-process-2.8.3/AndroidManifest.xml:17:1-35:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-compose-android:2.8.3] /Users/nancyqin/.gradle/caches/transforms-4/c2619f03fe35680e0838c57817eb2206/transformed/jetified-lifecycle-viewmodel-compose-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-android:1.6.8] /Users/nancyqin/.gradle/caches/transforms-4/b23f7243f037b23cb63ad8ad37e92df6/transformed/jetified-ui-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.autofill:autofill:1.0.0] /Users/nancyqin/.gradle/caches/transforms-4/74eb6740f8f204c81b7ba7387c319f39/transformed/jetified-autofill-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.browser:browser:1.8.0] /Users/nancyqin/.gradle/caches/transforms-4/62f9ea58ad45518d932024442c22a542/transformed/browser-1.8.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/nancyqin/.gradle/caches/transforms-4/8d857d20a4ae0eca23a8e290c4ecf47f/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/nancyqin/.gradle/caches/transforms-4/2c46470ed17f9ddb7fd0a40ec3523376/transformed/vectordrawable-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/nancyqin/.gradle/caches/transforms-4/83eb0c1c0d6a5f5f3d49c119cc2f8644/transformed/drawerlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/nancyqin/.gradle/caches/transforms-4/022a779bbe4b6628196f2fc6419ab0e5/transformed/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.0.0] /Users/nancyqin/.gradle/caches/transforms-4/d3fb34e8727c79cb14cc52735ca2f27c/transformed/customview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.13.1] /Users/nancyqin/.gradle/caches/transforms-4/16c1a9765e361675519feefd9d5c711c/transformed/core-1.13.1/AndroidManifest.xml:17:1-30:12
+MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] /Users/nancyqin/.gradle/caches/transforms-4/e2b5b636ff66cd54cecd71de4aa3abce/transformed/jetified-customview-poolingcontainer-1.0.0/AndroidManifest.xml:17:1-23:12
+MERGED from [androidx.core:core-ktx:1.13.1] /Users/nancyqin/.gradle/caches/transforms-4/f2603963c20a66be9230803f1cf7ffce/transformed/jetified-core-ktx-1.13.1/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.annotation:annotation-experimental:1.4.0] /Users/nancyqin/.gradle/caches/transforms-4/f88a830529c722e69c0d2102e94589d4/transformed/jetified-annotation-experimental-1.4.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.runtime:runtime-saveable-android:1.6.8] /Users/nancyqin/.gradle/caches/transforms-4/42cda8e32e8fa9c40be64df4a20ddc0d/transformed/jetified-runtime-saveable-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.runtime:runtime-android:1.6.8] /Users/nancyqin/.gradle/caches/transforms-4/66f79420c529d927df8f0fe5320b382c/transformed/jetified-runtime-release/AndroidManifest.xml:2:1-7:12
+MERGED from [com.soywiz.korlibs.krypto:krypto-android:4.0.10] /Users/nancyqin/.gradle/caches/transforms-4/c4c55bdddb728bd6066fbecf469c9d18/transformed/jetified-krypto-debug/AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/nancyqin/.gradle/caches/transforms-4/ac438c6cee3d0b4812baebead9ffdb56/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:17:1-27:12
+MERGED from [com.russhwolf:multiplatform-settings-no-arg-android-debug:1.1.1] /Users/nancyqin/.gradle/caches/transforms-4/b9eb3f706fe63725441596e63410d4e9/transformed/jetified-multiplatform-settings-no-arg-debug/AndroidManifest.xml:17:1-35:12
+MERGED from [com.russhwolf:multiplatform-settings-coroutines-android-debug:1.1.1] /Users/nancyqin/.gradle/caches/transforms-4/82407989e85f037ec4c3f327e612827b/transformed/jetified-multiplatform-settings-coroutines-debug/AndroidManifest.xml:2:1-7:12
+MERGED from [co.touchlab:kermit-android-debug:2.0.4] /Users/nancyqin/.gradle/caches/transforms-4/dd1acb23901c515f0e48a570e9e04879/transformed/jetified-kermit-debug/AndroidManifest.xml:2:1-7:12
+MERGED from [com.russhwolf:multiplatform-settings-android-debug:1.1.1] /Users/nancyqin/.gradle/caches/transforms-4/a56927c6235adaf3102fd85fda742300/transformed/jetified-multiplatform-settings-debug/AndroidManifest.xml:2:1-7:12
+MERGED from [co.touchlab:kermit-core-android-debug:2.0.4] /Users/nancyqin/.gradle/caches/transforms-4/9f66d73c9706da390d5fa6de9bb03a1e/transformed/jetified-kermit-core-debug/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/nancyqin/.gradle/caches/transforms-4/50e7220f2cee2a2c5b0dcee7ee43e074/transformed/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/nancyqin/.gradle/caches/transforms-4/87125e5750af9d2b08f92f0cfdc7a9e5/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:17:1-55:12
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/nancyqin/.gradle/caches/transforms-4/2740f1e2c988d987f5637887fe946d3c/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:17:1-33:12
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/nancyqin/.gradle/caches/transforms-4/29dd69aea36408b37c5e4bdb78c51a64/transformed/jetified-tracing-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.exifinterface:exifinterface:1.3.7] /Users/nancyqin/.gradle/caches/transforms-4/fee8734b0fe835b336eadd4485deca2c/transformed/exifinterface-1.3.7/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/nancyqin/.gradle/caches/transforms-4/6a0431261a5f58dafe89fc15408cc456/transformed/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.arch.core:core-runtime:2.2.0] /Users/nancyqin/.gradle/caches/transforms-4/d33847ab19f59b154fa1c0b55937685b/transformed/core-runtime-2.2.0/AndroidManifest.xml:17:1-22:12
+	package
+		INJECTED from /Users/nancyqin/Downloads/fridge-tracker/portal-app/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/nancyqin/Downloads/fridge-tracker/portal-app/app/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /Users/nancyqin/Downloads/fridge-tracker/portal-app/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/nancyqin/Downloads/fridge-tracker/portal-app/app/src/main/AndroidManifest.xml:2:11-69
+uses-permission#android.permission.INTERNET
+ADDED from /Users/nancyqin/Downloads/fridge-tracker/portal-app/app/src/main/AndroidManifest.xml:4:5-67
+	android:name
+		ADDED from /Users/nancyqin/Downloads/fridge-tracker/portal-app/app/src/main/AndroidManifest.xml:4:22-64
+uses-permission#android.permission.CAMERA
+ADDED from /Users/nancyqin/Downloads/fridge-tracker/portal-app/app/src/main/AndroidManifest.xml:5:5-65
+	android:name
+		ADDED from /Users/nancyqin/Downloads/fridge-tracker/portal-app/app/src/main/AndroidManifest.xml:5:22-62
+uses-feature#android.hardware.camera.any
+ADDED from /Users/nancyqin/Downloads/fridge-tracker/portal-app/app/src/main/AndroidManifest.xml:6:5-89
+	android:required
+		ADDED from /Users/nancyqin/Downloads/fridge-tracker/portal-app/app/src/main/AndroidManifest.xml:6:62-86
+	android:name
+		ADDED from /Users/nancyqin/Downloads/fridge-tracker/portal-app/app/src/main/AndroidManifest.xml:6:19-61
+application
+ADDED from /Users/nancyqin/Downloads/fridge-tracker/portal-app/app/src/main/AndroidManifest.xml:8:5-27:19
+INJECTED from /Users/nancyqin/Downloads/fridge-tracker/portal-app/app/src/main/AndroidManifest.xml:8:5-27:19
+MERGED from [androidx.camera:camera-camera2:1.3.4] /Users/nancyqin/.gradle/caches/transforms-4/f4e54843bfb0150cb303af653ba91e33/transformed/jetified-camera-camera2-1.3.4/AndroidManifest.xml:23:5-34:19
+MERGED from [androidx.camera:camera-camera2:1.3.4] /Users/nancyqin/.gradle/caches/transforms-4/f4e54843bfb0150cb303af653ba91e33/transformed/jetified-camera-camera2-1.3.4/AndroidManifest.xml:23:5-34:19
+MERGED from [androidx.camera:camera-core:1.3.4] /Users/nancyqin/.gradle/caches/transforms-4/cb610fc2af703d3bbca24ef66ed51c4d/transformed/jetified-camera-core-1.3.4/AndroidManifest.xml:23:5-34:19
+MERGED from [androidx.camera:camera-core:1.3.4] /Users/nancyqin/.gradle/caches/transforms-4/cb610fc2af703d3bbca24ef66ed51c4d/transformed/jetified-camera-core-1.3.4/AndroidManifest.xml:23:5-34:19
+MERGED from [androidx.compose.ui:ui-tooling-android:1.6.8] /Users/nancyqin/.gradle/caches/transforms-4/7051f105afd08b30475d52ac977fd3cd/transformed/jetified-ui-tooling-release/AndroidManifest.xml:22:5-26:19
+MERGED from [androidx.compose.ui:ui-tooling-android:1.6.8] /Users/nancyqin/.gradle/caches/transforms-4/7051f105afd08b30475d52ac977fd3cd/transformed/jetified-ui-tooling-release/AndroidManifest.xml:22:5-26:19
+MERGED from [io.github.jan-tennert.supabase:storage-kt-android-debug:2.5.4] /Users/nancyqin/.gradle/caches/transforms-4/e39ddb6ad1c254082a588d2e324901e2/transformed/jetified-storage-kt-debug/AndroidManifest.xml:8:5-18:19
+MERGED from [io.github.jan-tennert.supabase:storage-kt-android-debug:2.5.4] /Users/nancyqin/.gradle/caches/transforms-4/e39ddb6ad1c254082a588d2e324901e2/transformed/jetified-storage-kt-debug/AndroidManifest.xml:8:5-18:19
+MERGED from [io.github.jan-tennert.supabase:gotrue-kt-android-debug:2.5.4] /Users/nancyqin/.gradle/caches/transforms-4/e5cbb2ff7b473aaa7b6ec8b98818cb8d/transformed/jetified-gotrue-kt-debug/AndroidManifest.xml:8:5-18:19
+MERGED from [io.github.jan-tennert.supabase:gotrue-kt-android-debug:2.5.4] /Users/nancyqin/.gradle/caches/transforms-4/e5cbb2ff7b473aaa7b6ec8b98818cb8d/transformed/jetified-gotrue-kt-debug/AndroidManifest.xml:8:5-18:19
+MERGED from [androidx.emoji2:emoji2:1.3.0] /Users/nancyqin/.gradle/caches/transforms-4/0e4da39534f5a6aa8fe414d10f7ba090/transformed/jetified-emoji2-1.3.0/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.emoji2:emoji2:1.3.0] /Users/nancyqin/.gradle/caches/transforms-4/0e4da39534f5a6aa8fe414d10f7ba090/transformed/jetified-emoji2-1.3.0/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.8.3] /Users/nancyqin/.gradle/caches/transforms-4/8b708b774aae8fef50c3736291e0b4e2/transformed/jetified-lifecycle-process-2.8.3/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.8.3] /Users/nancyqin/.gradle/caches/transforms-4/8b708b774aae8fef50c3736291e0b4e2/transformed/jetified-lifecycle-process-2.8.3/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.core:core:1.13.1] /Users/nancyqin/.gradle/caches/transforms-4/16c1a9765e361675519feefd9d5c711c/transformed/core-1.13.1/AndroidManifest.xml:28:5-89
+MERGED from [androidx.core:core:1.13.1] /Users/nancyqin/.gradle/caches/transforms-4/16c1a9765e361675519feefd9d5c711c/transformed/core-1.13.1/AndroidManifest.xml:28:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/nancyqin/.gradle/caches/transforms-4/ac438c6cee3d0b4812baebead9ffdb56/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/nancyqin/.gradle/caches/transforms-4/ac438c6cee3d0b4812baebead9ffdb56/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+MERGED from [com.russhwolf:multiplatform-settings-no-arg-android-debug:1.1.1] /Users/nancyqin/.gradle/caches/transforms-4/b9eb3f706fe63725441596e63410d4e9/transformed/jetified-multiplatform-settings-no-arg-debug/AndroidManifest.xml:23:5-33:19
+MERGED from [com.russhwolf:multiplatform-settings-no-arg-android-debug:1.1.1] /Users/nancyqin/.gradle/caches/transforms-4/b9eb3f706fe63725441596e63410d4e9/transformed/jetified-multiplatform-settings-no-arg-debug/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/nancyqin/.gradle/caches/transforms-4/87125e5750af9d2b08f92f0cfdc7a9e5/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:23:5-53:19
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/nancyqin/.gradle/caches/transforms-4/87125e5750af9d2b08f92f0cfdc7a9e5/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:23:5-53:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/nancyqin/.gradle/caches/transforms-4/2740f1e2c988d987f5637887fe946d3c/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/nancyqin/.gradle/caches/transforms-4/2740f1e2c988d987f5637887fe946d3c/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:25:5-31:19
+	android:extractNativeLibs
+		INJECTED from /Users/nancyqin/Downloads/fridge-tracker/portal-app/app/src/main/AndroidManifest.xml
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.13.1] /Users/nancyqin/.gradle/caches/transforms-4/16c1a9765e361675519feefd9d5c711c/transformed/core-1.13.1/AndroidManifest.xml:28:18-86
+	android:label
+		ADDED from /Users/nancyqin/Downloads/fridge-tracker/portal-app/app/src/main/AndroidManifest.xml:10:9-39
+	android:allowBackup
+		ADDED from /Users/nancyqin/Downloads/fridge-tracker/portal-app/app/src/main/AndroidManifest.xml:9:9-35
+	android:theme
+		ADDED from /Users/nancyqin/Downloads/fridge-tracker/portal-app/app/src/main/AndroidManifest.xml:11:9-51
+	android:usesCleartextTraffic
+		ADDED from /Users/nancyqin/Downloads/fridge-tracker/portal-app/app/src/main/AndroidManifest.xml:12:9-45
+activity#com.fridgetracker.app.MainActivity
+ADDED from /Users/nancyqin/Downloads/fridge-tracker/portal-app/app/src/main/AndroidManifest.xml:14:9-25:20
+	android:exported
+		ADDED from /Users/nancyqin/Downloads/fridge-tracker/portal-app/app/src/main/AndroidManifest.xml:16:13-36
+	android:resizeableActivity
+		ADDED from /Users/nancyqin/Downloads/fridge-tracker/portal-app/app/src/main/AndroidManifest.xml:17:13-46
+	android:name
+		ADDED from /Users/nancyqin/Downloads/fridge-tracker/portal-app/app/src/main/AndroidManifest.xml:15:13-41
+layout
+ADDED from /Users/nancyqin/Downloads/fridge-tracker/portal-app/app/src/main/AndroidManifest.xml:18:13-20:45
+	android:minWidth
+		ADDED from /Users/nancyqin/Downloads/fridge-tracker/portal-app/app/src/main/AndroidManifest.xml:19:17-41
+	android:minHeight
+		ADDED from /Users/nancyqin/Downloads/fridge-tracker/portal-app/app/src/main/AndroidManifest.xml:20:17-42
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/nancyqin/Downloads/fridge-tracker/portal-app/app/src/main/AndroidManifest.xml:21:13-24:29
+action#android.intent.action.MAIN
+ADDED from /Users/nancyqin/Downloads/fridge-tracker/portal-app/app/src/main/AndroidManifest.xml:22:17-69
+	android:name
+		ADDED from /Users/nancyqin/Downloads/fridge-tracker/portal-app/app/src/main/AndroidManifest.xml:22:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/nancyqin/Downloads/fridge-tracker/portal-app/app/src/main/AndroidManifest.xml:23:17-77
+	android:name
+		ADDED from /Users/nancyqin/Downloads/fridge-tracker/portal-app/app/src/main/AndroidManifest.xml:23:27-74
+uses-sdk
+INJECTED from /Users/nancyqin/Downloads/fridge-tracker/portal-app/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/nancyqin/Downloads/fridge-tracker/portal-app/app/src/main/AndroidManifest.xml
+INJECTED from /Users/nancyqin/Downloads/fridge-tracker/portal-app/app/src/main/AndroidManifest.xml
+MERGED from [androidx.camera:camera-video:1.3.4] /Users/nancyqin/.gradle/caches/transforms-4/5a0c68bfb9ec655769340ec2056ce445/transformed/jetified-camera-video-1.3.4/AndroidManifest.xml:5:5-44
+MERGED from [androidx.camera:camera-video:1.3.4] /Users/nancyqin/.gradle/caches/transforms-4/5a0c68bfb9ec655769340ec2056ce445/transformed/jetified-camera-video-1.3.4/AndroidManifest.xml:5:5-44
+MERGED from [androidx.camera:camera-view:1.3.4] /Users/nancyqin/.gradle/caches/transforms-4/32e6058b09deb50c5ab875720763d844/transformed/jetified-camera-view-1.3.4/AndroidManifest.xml:5:5-44
+MERGED from [androidx.camera:camera-view:1.3.4] /Users/nancyqin/.gradle/caches/transforms-4/32e6058b09deb50c5ab875720763d844/transformed/jetified-camera-view-1.3.4/AndroidManifest.xml:5:5-44
+MERGED from [androidx.camera:camera-lifecycle:1.3.4] /Users/nancyqin/.gradle/caches/transforms-4/689e6c8267ae2c934139851dd2b9c983/transformed/jetified-camera-lifecycle-1.3.4/AndroidManifest.xml:5:5-44
+MERGED from [androidx.camera:camera-lifecycle:1.3.4] /Users/nancyqin/.gradle/caches/transforms-4/689e6c8267ae2c934139851dd2b9c983/transformed/jetified-camera-lifecycle-1.3.4/AndroidManifest.xml:5:5-44
+MERGED from [androidx.camera:camera-camera2:1.3.4] /Users/nancyqin/.gradle/caches/transforms-4/f4e54843bfb0150cb303af653ba91e33/transformed/jetified-camera-camera2-1.3.4/AndroidManifest.xml:21:5-44
+MERGED from [androidx.camera:camera-camera2:1.3.4] /Users/nancyqin/.gradle/caches/transforms-4/f4e54843bfb0150cb303af653ba91e33/transformed/jetified-camera-camera2-1.3.4/AndroidManifest.xml:21:5-44
+MERGED from [androidx.camera:camera-core:1.3.4] /Users/nancyqin/.gradle/caches/transforms-4/cb610fc2af703d3bbca24ef66ed51c4d/transformed/jetified-camera-core-1.3.4/AndroidManifest.xml:21:5-44
+MERGED from [androidx.camera:camera-core:1.3.4] /Users/nancyqin/.gradle/caches/transforms-4/cb610fc2af703d3bbca24ef66ed51c4d/transformed/jetified-camera-core-1.3.4/AndroidManifest.xml:21:5-44
+MERGED from [io.coil-kt:coil-compose:2.6.0] /Users/nancyqin/.gradle/caches/transforms-4/34a3e883853bf1e4485d20c3def898f6/transformed/jetified-coil-compose-2.6.0/AndroidManifest.xml:5:5-44
+MERGED from [io.coil-kt:coil-compose:2.6.0] /Users/nancyqin/.gradle/caches/transforms-4/34a3e883853bf1e4485d20c3def898f6/transformed/jetified-coil-compose-2.6.0/AndroidManifest.xml:5:5-44
+MERGED from [io.coil-kt:coil-compose-base:2.6.0] /Users/nancyqin/.gradle/caches/transforms-4/58398db76d2ed7641ab79033b36362ca/transformed/jetified-coil-compose-base-2.6.0/AndroidManifest.xml:5:5-44
+MERGED from [io.coil-kt:coil-compose-base:2.6.0] /Users/nancyqin/.gradle/caches/transforms-4/58398db76d2ed7641ab79033b36362ca/transformed/jetified-coil-compose-base-2.6.0/AndroidManifest.xml:5:5-44
+MERGED from [io.coil-kt:coil:2.6.0] /Users/nancyqin/.gradle/caches/transforms-4/575841b595a1dd7ec7016e395806910a/transformed/jetified-coil-2.6.0/AndroidManifest.xml:5:5-44
+MERGED from [io.coil-kt:coil:2.6.0] /Users/nancyqin/.gradle/caches/transforms-4/575841b595a1dd7ec7016e395806910a/transformed/jetified-coil-2.6.0/AndroidManifest.xml:5:5-44
+MERGED from [io.coil-kt:coil-base:2.6.0] /Users/nancyqin/.gradle/caches/transforms-4/cf9aef0df2dc1e20d0e43a0fae382d00/transformed/jetified-coil-base-2.6.0/AndroidManifest.xml:5:5-44
+MERGED from [io.coil-kt:coil-base:2.6.0] /Users/nancyqin/.gradle/caches/transforms-4/cf9aef0df2dc1e20d0e43a0fae382d00/transformed/jetified-coil-base-2.6.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.appcompat:appcompat-resources:1.6.1] /Users/nancyqin/.gradle/caches/transforms-4/8a6165219489d2f8fddf4c2d1f1586fd/transformed/jetified-appcompat-resources-1.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat-resources:1.6.1] /Users/nancyqin/.gradle/caches/transforms-4/8a6165219489d2f8fddf4c2d1f1586fd/transformed/jetified-appcompat-resources-1.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.6.1] /Users/nancyqin/.gradle/caches/transforms-4/805ebf6094f92ec0fe8b8aea2a2650a2/transformed/appcompat-1.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.6.1] /Users/nancyqin/.gradle/caches/transforms-4/805ebf6094f92ec0fe8b8aea2a2650a2/transformed/appcompat-1.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.3.6] /Users/nancyqin/.gradle/caches/transforms-4/4132709c71f078398c2c3f8dc6069833/transformed/fragment-1.3.6/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.3.6] /Users/nancyqin/.gradle/caches/transforms-4/4132709c71f078398c2c3f8dc6069833/transformed/fragment-1.3.6/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.9.0] /Users/nancyqin/.gradle/caches/transforms-4/da8f17234d647ce5000725c992f0acb2/transformed/jetified-activity-1.9.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.9.0] /Users/nancyqin/.gradle/caches/transforms-4/da8f17234d647ce5000725c992f0acb2/transformed/jetified-activity-1.9.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity-ktx:1.9.0] /Users/nancyqin/.gradle/caches/transforms-4/a36cd352c5837ded7230629d5b3b077a/transformed/jetified-activity-ktx-1.9.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.activity:activity-ktx:1.9.0] /Users/nancyqin/.gradle/caches/transforms-4/a36cd352c5837ded7230629d5b3b077a/transformed/jetified-activity-ktx-1.9.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material3:material3-android:1.2.1] /Users/nancyqin/.gradle/caches/transforms-4/5f847aee98e7f6924100ef9a994a17f9/transformed/jetified-material3-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.material3:material3-android:1.2.1] /Users/nancyqin/.gradle/caches/transforms-4/5f847aee98e7f6924100ef9a994a17f9/transformed/jetified-material3-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.material:material-ripple-android:1.6.8] /Users/nancyqin/.gradle/caches/transforms-4/6d3b9d5047c1402557e6ea7474c2dca5/transformed/jetified-material-ripple-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material:material-ripple-android:1.6.8] /Users/nancyqin/.gradle/caches/transforms-4/6d3b9d5047c1402557e6ea7474c2dca5/transformed/jetified-material-ripple-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material:material-icons-core-android:1.6.8] /Users/nancyqin/.gradle/caches/transforms-4/1ec5bc24164ea15eaa599bc46fcdcbe5/transformed/jetified-material-icons-core-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material:material-icons-core-android:1.6.8] /Users/nancyqin/.gradle/caches/transforms-4/1ec5bc24164ea15eaa599bc46fcdcbe5/transformed/jetified-material-icons-core-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material:material-android:1.6.8] /Users/nancyqin/.gradle/caches/transforms-4/84fc3545e559fb037df63ebb31eacf9e/transformed/jetified-material-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material:material-android:1.6.8] /Users/nancyqin/.gradle/caches/transforms-4/84fc3545e559fb037df63ebb31eacf9e/transformed/jetified-material-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.animation:animation-core-android:1.6.8] /Users/nancyqin/.gradle/caches/transforms-4/a860c8c3f038d1563f0f393347dd8ede/transformed/jetified-animation-core-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.animation:animation-core-android:1.6.8] /Users/nancyqin/.gradle/caches/transforms-4/a860c8c3f038d1563f0f393347dd8ede/transformed/jetified-animation-core-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.animation:animation-android:1.6.8] /Users/nancyqin/.gradle/caches/transforms-4/4882a67a65addc37daca70e04e9f4cc4/transformed/jetified-animation-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.animation:animation-android:1.6.8] /Users/nancyqin/.gradle/caches/transforms-4/4882a67a65addc37daca70e04e9f4cc4/transformed/jetified-animation-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.foundation:foundation-layout-android:1.6.8] /Users/nancyqin/.gradle/caches/transforms-4/eaf7da8ee0a6ccabaa82f95c5935d1c7/transformed/jetified-foundation-layout-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.foundation:foundation-layout-android:1.6.8] /Users/nancyqin/.gradle/caches/transforms-4/eaf7da8ee0a6ccabaa82f95c5935d1c7/transformed/jetified-foundation-layout-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.foundation:foundation-android:1.6.8] /Users/nancyqin/.gradle/caches/transforms-4/1dc1098448922dfbb98babc52344c574/transformed/jetified-foundation-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.foundation:foundation-android:1.6.8] /Users/nancyqin/.gradle/caches/transforms-4/1dc1098448922dfbb98babc52344c574/transformed/jetified-foundation-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-tooling-data-android:1.6.8] /Users/nancyqin/.gradle/caches/transforms-4/b2156ba308fb7c2ef773367dca76bf04/transformed/jetified-ui-tooling-data-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-tooling-data-android:1.6.8] /Users/nancyqin/.gradle/caches/transforms-4/b2156ba308fb7c2ef773367dca76bf04/transformed/jetified-ui-tooling-data-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-unit-android:1.6.8] /Users/nancyqin/.gradle/caches/transforms-4/922fd2d9ce5a8e7b9e9e6e70ac9ad92e/transformed/jetified-ui-unit-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-unit-android:1.6.8] /Users/nancyqin/.gradle/caches/transforms-4/922fd2d9ce5a8e7b9e9e6e70ac9ad92e/transformed/jetified-ui-unit-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-geometry-android:1.6.8] /Users/nancyqin/.gradle/caches/transforms-4/f30550579935534b44d825bd23ec9104/transformed/jetified-ui-geometry-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-geometry-android:1.6.8] /Users/nancyqin/.gradle/caches/transforms-4/f30550579935534b44d825bd23ec9104/transformed/jetified-ui-geometry-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-util-android:1.6.8] /Users/nancyqin/.gradle/caches/transforms-4/74c754e6f83fe7641863f1847e0f63b6/transformed/jetified-ui-util-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-util-android:1.6.8] /Users/nancyqin/.gradle/caches/transforms-4/74c754e6f83fe7641863f1847e0f63b6/transformed/jetified-ui-util-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-text-android:1.6.8] /Users/nancyqin/.gradle/caches/transforms-4/95e149f16a31323cec868ad0ed5d1f11/transformed/jetified-ui-text-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-text-android:1.6.8] /Users/nancyqin/.gradle/caches/transforms-4/95e149f16a31323cec868ad0ed5d1f11/transformed/jetified-ui-text-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-graphics-android:1.6.8] /Users/nancyqin/.gradle/caches/transforms-4/e02a9722c9d96a6461255cb456b78efd/transformed/jetified-ui-graphics-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-graphics-android:1.6.8] /Users/nancyqin/.gradle/caches/transforms-4/e02a9722c9d96a6461255cb456b78efd/transformed/jetified-ui-graphics-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-tooling-preview-android:1.6.8] /Users/nancyqin/.gradle/caches/transforms-4/21d2fc980aeac91b0f90fd9d0dc27c81/transformed/jetified-ui-tooling-preview-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.ui:ui-tooling-preview-android:1.6.8] /Users/nancyqin/.gradle/caches/transforms-4/21d2fc980aeac91b0f90fd9d0dc27c81/transformed/jetified-ui-tooling-preview-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.ui:ui-tooling-android:1.6.8] /Users/nancyqin/.gradle/caches/transforms-4/7051f105afd08b30475d52ac977fd3cd/transformed/jetified-ui-tooling-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.ui:ui-tooling-android:1.6.8] /Users/nancyqin/.gradle/caches/transforms-4/7051f105afd08b30475d52ac977fd3cd/transformed/jetified-ui-tooling-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity-compose:1.9.0] /Users/nancyqin/.gradle/caches/transforms-4/7ce21ea58041deb45cdec9221f595c33/transformed/jetified-activity-compose-1.9.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.activity:activity-compose:1.9.0] /Users/nancyqin/.gradle/caches/transforms-4/7ce21ea58041deb45cdec9221f595c33/transformed/jetified-activity-compose-1.9.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.accompanist:accompanist-drawablepainter:0.32.0] /Users/nancyqin/.gradle/caches/transforms-4/0afb95943570d4b7c3654f11163a0334/transformed/jetified-accompanist-drawablepainter-0.32.0/AndroidManifest.xml:21:5-44
+MERGED from [com.google.accompanist:accompanist-drawablepainter:0.32.0] /Users/nancyqin/.gradle/caches/transforms-4/0afb95943570d4b7c3654f11163a0334/transformed/jetified-accompanist-drawablepainter-0.32.0/AndroidManifest.xml:21:5-44
+MERGED from [io.github.jan-tennert.supabase:realtime-kt-android-debug:2.5.4] /Users/nancyqin/.gradle/caches/transforms-4/a90ea28e6bfb3e3dbd08749b69ecf06c/transformed/jetified-realtime-kt-debug/AndroidManifest.xml:5:5-44
+MERGED from [io.github.jan-tennert.supabase:realtime-kt-android-debug:2.5.4] /Users/nancyqin/.gradle/caches/transforms-4/a90ea28e6bfb3e3dbd08749b69ecf06c/transformed/jetified-realtime-kt-debug/AndroidManifest.xml:5:5-44
+MERGED from [io.github.jan-tennert.supabase:postgrest-kt-android-debug:2.5.4] /Users/nancyqin/.gradle/caches/transforms-4/8c830021e1e10ea54baeab36f6220c91/transformed/jetified-postgrest-kt-debug/AndroidManifest.xml:5:5-44
+MERGED from [io.github.jan-tennert.supabase:postgrest-kt-android-debug:2.5.4] /Users/nancyqin/.gradle/caches/transforms-4/8c830021e1e10ea54baeab36f6220c91/transformed/jetified-postgrest-kt-debug/AndroidManifest.xml:5:5-44
+MERGED from [io.github.jan-tennert.supabase:storage-kt-android-debug:2.5.4] /Users/nancyqin/.gradle/caches/transforms-4/e39ddb6ad1c254082a588d2e324901e2/transformed/jetified-storage-kt-debug/AndroidManifest.xml:6:5-44
+MERGED from [io.github.jan-tennert.supabase:storage-kt-android-debug:2.5.4] /Users/nancyqin/.gradle/caches/transforms-4/e39ddb6ad1c254082a588d2e324901e2/transformed/jetified-storage-kt-debug/AndroidManifest.xml:6:5-44
+MERGED from [io.github.jan-tennert.supabase:gotrue-kt-android-debug:2.5.4] /Users/nancyqin/.gradle/caches/transforms-4/e5cbb2ff7b473aaa7b6ec8b98818cb8d/transformed/jetified-gotrue-kt-debug/AndroidManifest.xml:6:5-44
+MERGED from [io.github.jan-tennert.supabase:gotrue-kt-android-debug:2.5.4] /Users/nancyqin/.gradle/caches/transforms-4/e5cbb2ff7b473aaa7b6ec8b98818cb8d/transformed/jetified-gotrue-kt-debug/AndroidManifest.xml:6:5-44
+MERGED from [io.github.jan-tennert.supabase:supabase-kt-android-debug:2.5.4] /Users/nancyqin/.gradle/caches/transforms-4/ab92a0dcd79a930aac79751123aef5c4/transformed/jetified-supabase-kt-debug/AndroidManifest.xml:5:5-44
+MERGED from [io.github.jan-tennert.supabase:supabase-kt-android-debug:2.5.4] /Users/nancyqin/.gradle/caches/transforms-4/ab92a0dcd79a930aac79751123aef5c4/transformed/jetified-supabase-kt-debug/AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2-views-helper:1.3.0] /Users/nancyqin/.gradle/caches/transforms-4/639d4533efeccb573ebd738053a75e76/transformed/jetified-emoji2-views-helper-1.3.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2-views-helper:1.3.0] /Users/nancyqin/.gradle/caches/transforms-4/639d4533efeccb573ebd738053a75e76/transformed/jetified-emoji2-views-helper-1.3.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2:1.3.0] /Users/nancyqin/.gradle/caches/transforms-4/0e4da39534f5a6aa8fe414d10f7ba090/transformed/jetified-emoji2-1.3.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.emoji2:emoji2:1.3.0] /Users/nancyqin/.gradle/caches/transforms-4/0e4da39534f5a6aa8fe414d10f7ba090/transformed/jetified-emoji2-1.3.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] /Users/nancyqin/.gradle/caches/transforms-4/b67f3956b6899221865b4ed9642668e6/transformed/jetified-savedstate-ktx-1.2.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] /Users/nancyqin/.gradle/caches/transforms-4/b67f3956b6899221865b4ed9642668e6/transformed/jetified-savedstate-ktx-1.2.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.2.1] /Users/nancyqin/.gradle/caches/transforms-4/9211af025be3649fb41f5e1ceab0488e/transformed/jetified-savedstate-1.2.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.2.1] /Users/nancyqin/.gradle/caches/transforms-4/9211af025be3649fb41f5e1ceab0488e/transformed/jetified-savedstate-1.2.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/nancyqin/.gradle/caches/transforms-4/19f6f39a99afa218e3d6126cf8e84ea7/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/nancyqin/.gradle/caches/transforms-4/19f6f39a99afa218e3d6126cf8e84ea7/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.8.3] /Users/nancyqin/.gradle/caches/transforms-4/815020522ca0ab58af2c5e994237b6a0/transformed/lifecycle-viewmodel-2.8.3/AndroidManifest.xml:4:5-43
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.8.3] /Users/nancyqin/.gradle/caches/transforms-4/815020522ca0ab58af2c5e994237b6a0/transformed/lifecycle-viewmodel-2.8.3/AndroidManifest.xml:4:5-43
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-android:2.8.3] /Users/nancyqin/.gradle/caches/transforms-4/23bc443343c9b65c6615b49fcd53b3a7/transformed/jetified-lifecycle-viewmodel-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-android:2.8.3] /Users/nancyqin/.gradle/caches/transforms-4/23bc443343c9b65c6615b49fcd53b3a7/transformed/jetified-lifecycle-viewmodel-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx-android:2.8.3] /Users/nancyqin/.gradle/caches/transforms-4/c3d19d1d9abe923b0c59e66069c2700a/transformed/jetified-lifecycle-runtime-ktx-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx-android:2.8.3] /Users/nancyqin/.gradle/caches/transforms-4/c3d19d1d9abe923b0c59e66069c2700a/transformed/jetified-lifecycle-runtime-ktx-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-compose-android:2.8.3] /Users/nancyqin/.gradle/caches/transforms-4/b288f5bff97da7899eb236b64ca69b37/transformed/jetified-lifecycle-runtime-compose-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-compose-android:2.8.3] /Users/nancyqin/.gradle/caches/transforms-4/b288f5bff97da7899eb236b64ca69b37/transformed/jetified-lifecycle-runtime-compose-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.8.3] /Users/nancyqin/.gradle/caches/transforms-4/c31955d179918344ea6d6560621ee73a/transformed/jetified-lifecycle-livedata-core-ktx-2.8.3/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.8.3] /Users/nancyqin/.gradle/caches/transforms-4/c31955d179918344ea6d6560621ee73a/transformed/jetified-lifecycle-livedata-core-ktx-2.8.3/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-android:2.8.3] /Users/nancyqin/.gradle/caches/transforms-4/01b11f414a180bd6c1db29eb7f8baf95/transformed/jetified-lifecycle-runtime-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-android:2.8.3] /Users/nancyqin/.gradle/caches/transforms-4/01b11f414a180bd6c1db29eb7f8baf95/transformed/jetified-lifecycle-runtime-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.8.3] /Users/nancyqin/.gradle/caches/transforms-4/27a703cd934116cd18b1a39f296cb4c9/transformed/jetified-lifecycle-viewmodel-savedstate-2.8.3/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.8.3] /Users/nancyqin/.gradle/caches/transforms-4/27a703cd934116cd18b1a39f296cb4c9/transformed/jetified-lifecycle-viewmodel-savedstate-2.8.3/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.8.3] /Users/nancyqin/.gradle/caches/transforms-4/a672ba56ee46012291adc073b8294555/transformed/jetified-lifecycle-viewmodel-ktx-2.8.3/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.8.3] /Users/nancyqin/.gradle/caches/transforms-4/a672ba56ee46012291adc073b8294555/transformed/jetified-lifecycle-viewmodel-ktx-2.8.3/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.8.3] /Users/nancyqin/.gradle/caches/transforms-4/5a06e69a90ade68baf16459b0338d6cd/transformed/lifecycle-livedata-core-2.8.3/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.8.3] /Users/nancyqin/.gradle/caches/transforms-4/5a06e69a90ade68baf16459b0338d6cd/transformed/lifecycle-livedata-core-2.8.3/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.8.3] /Users/nancyqin/.gradle/caches/transforms-4/4b18d872920d760a54157dcebb20a9e8/transformed/lifecycle-livedata-2.8.3/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.8.3] /Users/nancyqin/.gradle/caches/transforms-4/4b18d872920d760a54157dcebb20a9e8/transformed/lifecycle-livedata-2.8.3/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.8.3] /Users/nancyqin/.gradle/caches/transforms-4/8b708b774aae8fef50c3736291e0b4e2/transformed/jetified-lifecycle-process-2.8.3/AndroidManifest.xml:21:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.8.3] /Users/nancyqin/.gradle/caches/transforms-4/8b708b774aae8fef50c3736291e0b4e2/transformed/jetified-lifecycle-process-2.8.3/AndroidManifest.xml:21:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-compose-android:2.8.3] /Users/nancyqin/.gradle/caches/transforms-4/c2619f03fe35680e0838c57817eb2206/transformed/jetified-lifecycle-viewmodel-compose-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-compose-android:2.8.3] /Users/nancyqin/.gradle/caches/transforms-4/c2619f03fe35680e0838c57817eb2206/transformed/jetified-lifecycle-viewmodel-compose-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-android:1.6.8] /Users/nancyqin/.gradle/caches/transforms-4/b23f7243f037b23cb63ad8ad37e92df6/transformed/jetified-ui-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-android:1.6.8] /Users/nancyqin/.gradle/caches/transforms-4/b23f7243f037b23cb63ad8ad37e92df6/transformed/jetified-ui-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.autofill:autofill:1.0.0] /Users/nancyqin/.gradle/caches/transforms-4/74eb6740f8f204c81b7ba7387c319f39/transformed/jetified-autofill-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.autofill:autofill:1.0.0] /Users/nancyqin/.gradle/caches/transforms-4/74eb6740f8f204c81b7ba7387c319f39/transformed/jetified-autofill-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.browser:browser:1.8.0] /Users/nancyqin/.gradle/caches/transforms-4/62f9ea58ad45518d932024442c22a542/transformed/browser-1.8.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.browser:browser:1.8.0] /Users/nancyqin/.gradle/caches/transforms-4/62f9ea58ad45518d932024442c22a542/transformed/browser-1.8.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/nancyqin/.gradle/caches/transforms-4/8d857d20a4ae0eca23a8e290c4ecf47f/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/nancyqin/.gradle/caches/transforms-4/8d857d20a4ae0eca23a8e290c4ecf47f/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/nancyqin/.gradle/caches/transforms-4/2c46470ed17f9ddb7fd0a40ec3523376/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/nancyqin/.gradle/caches/transforms-4/2c46470ed17f9ddb7fd0a40ec3523376/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/nancyqin/.gradle/caches/transforms-4/83eb0c1c0d6a5f5f3d49c119cc2f8644/transformed/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/nancyqin/.gradle/caches/transforms-4/83eb0c1c0d6a5f5f3d49c119cc2f8644/transformed/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/nancyqin/.gradle/caches/transforms-4/022a779bbe4b6628196f2fc6419ab0e5/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/nancyqin/.gradle/caches/transforms-4/022a779bbe4b6628196f2fc6419ab0e5/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /Users/nancyqin/.gradle/caches/transforms-4/d3fb34e8727c79cb14cc52735ca2f27c/transformed/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /Users/nancyqin/.gradle/caches/transforms-4/d3fb34e8727c79cb14cc52735ca2f27c/transformed/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.13.1] /Users/nancyqin/.gradle/caches/transforms-4/16c1a9765e361675519feefd9d5c711c/transformed/core-1.13.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.13.1] /Users/nancyqin/.gradle/caches/transforms-4/16c1a9765e361675519feefd9d5c711c/transformed/core-1.13.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] /Users/nancyqin/.gradle/caches/transforms-4/e2b5b636ff66cd54cecd71de4aa3abce/transformed/jetified-customview-poolingcontainer-1.0.0/AndroidManifest.xml:20:5-21:38
+MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] /Users/nancyqin/.gradle/caches/transforms-4/e2b5b636ff66cd54cecd71de4aa3abce/transformed/jetified-customview-poolingcontainer-1.0.0/AndroidManifest.xml:20:5-21:38
+MERGED from [androidx.core:core-ktx:1.13.1] /Users/nancyqin/.gradle/caches/transforms-4/f2603963c20a66be9230803f1cf7ffce/transformed/jetified-core-ktx-1.13.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.core:core-ktx:1.13.1] /Users/nancyqin/.gradle/caches/transforms-4/f2603963c20a66be9230803f1cf7ffce/transformed/jetified-core-ktx-1.13.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.4.0] /Users/nancyqin/.gradle/caches/transforms-4/f88a830529c722e69c0d2102e94589d4/transformed/jetified-annotation-experimental-1.4.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.4.0] /Users/nancyqin/.gradle/caches/transforms-4/f88a830529c722e69c0d2102e94589d4/transformed/jetified-annotation-experimental-1.4.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.runtime:runtime-saveable-android:1.6.8] /Users/nancyqin/.gradle/caches/transforms-4/42cda8e32e8fa9c40be64df4a20ddc0d/transformed/jetified-runtime-saveable-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.runtime:runtime-saveable-android:1.6.8] /Users/nancyqin/.gradle/caches/transforms-4/42cda8e32e8fa9c40be64df4a20ddc0d/transformed/jetified-runtime-saveable-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.runtime:runtime-android:1.6.8] /Users/nancyqin/.gradle/caches/transforms-4/66f79420c529d927df8f0fe5320b382c/transformed/jetified-runtime-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.runtime:runtime-android:1.6.8] /Users/nancyqin/.gradle/caches/transforms-4/66f79420c529d927df8f0fe5320b382c/transformed/jetified-runtime-release/AndroidManifest.xml:5:5-44
+MERGED from [com.soywiz.korlibs.krypto:krypto-android:4.0.10] /Users/nancyqin/.gradle/caches/transforms-4/c4c55bdddb728bd6066fbecf469c9d18/transformed/jetified-krypto-debug/AndroidManifest.xml:5:5-7:41
+MERGED from [com.soywiz.korlibs.krypto:krypto-android:4.0.10] /Users/nancyqin/.gradle/caches/transforms-4/c4c55bdddb728bd6066fbecf469c9d18/transformed/jetified-krypto-debug/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/nancyqin/.gradle/caches/transforms-4/ac438c6cee3d0b4812baebead9ffdb56/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/nancyqin/.gradle/caches/transforms-4/ac438c6cee3d0b4812baebead9ffdb56/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [com.russhwolf:multiplatform-settings-no-arg-android-debug:1.1.1] /Users/nancyqin/.gradle/caches/transforms-4/b9eb3f706fe63725441596e63410d4e9/transformed/jetified-multiplatform-settings-no-arg-debug/AndroidManifest.xml:21:5-44
+MERGED from [com.russhwolf:multiplatform-settings-no-arg-android-debug:1.1.1] /Users/nancyqin/.gradle/caches/transforms-4/b9eb3f706fe63725441596e63410d4e9/transformed/jetified-multiplatform-settings-no-arg-debug/AndroidManifest.xml:21:5-44
+MERGED from [com.russhwolf:multiplatform-settings-coroutines-android-debug:1.1.1] /Users/nancyqin/.gradle/caches/transforms-4/82407989e85f037ec4c3f327e612827b/transformed/jetified-multiplatform-settings-coroutines-debug/AndroidManifest.xml:5:5-44
+MERGED from [com.russhwolf:multiplatform-settings-coroutines-android-debug:1.1.1] /Users/nancyqin/.gradle/caches/transforms-4/82407989e85f037ec4c3f327e612827b/transformed/jetified-multiplatform-settings-coroutines-debug/AndroidManifest.xml:5:5-44
+MERGED from [co.touchlab:kermit-android-debug:2.0.4] /Users/nancyqin/.gradle/caches/transforms-4/dd1acb23901c515f0e48a570e9e04879/transformed/jetified-kermit-debug/AndroidManifest.xml:5:5-44
+MERGED from [co.touchlab:kermit-android-debug:2.0.4] /Users/nancyqin/.gradle/caches/transforms-4/dd1acb23901c515f0e48a570e9e04879/transformed/jetified-kermit-debug/AndroidManifest.xml:5:5-44
+MERGED from [com.russhwolf:multiplatform-settings-android-debug:1.1.1] /Users/nancyqin/.gradle/caches/transforms-4/a56927c6235adaf3102fd85fda742300/transformed/jetified-multiplatform-settings-debug/AndroidManifest.xml:5:5-44
+MERGED from [com.russhwolf:multiplatform-settings-android-debug:1.1.1] /Users/nancyqin/.gradle/caches/transforms-4/a56927c6235adaf3102fd85fda742300/transformed/jetified-multiplatform-settings-debug/AndroidManifest.xml:5:5-44
+MERGED from [co.touchlab:kermit-core-android-debug:2.0.4] /Users/nancyqin/.gradle/caches/transforms-4/9f66d73c9706da390d5fa6de9bb03a1e/transformed/jetified-kermit-core-debug/AndroidManifest.xml:5:5-44
+MERGED from [co.touchlab:kermit-core-android-debug:2.0.4] /Users/nancyqin/.gradle/caches/transforms-4/9f66d73c9706da390d5fa6de9bb03a1e/transformed/jetified-kermit-core-debug/AndroidManifest.xml:5:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/nancyqin/.gradle/caches/transforms-4/50e7220f2cee2a2c5b0dcee7ee43e074/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/nancyqin/.gradle/caches/transforms-4/50e7220f2cee2a2c5b0dcee7ee43e074/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/nancyqin/.gradle/caches/transforms-4/87125e5750af9d2b08f92f0cfdc7a9e5/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:21:5-44
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/nancyqin/.gradle/caches/transforms-4/87125e5750af9d2b08f92f0cfdc7a9e5/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:21:5-44
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/nancyqin/.gradle/caches/transforms-4/2740f1e2c988d987f5637887fe946d3c/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/nancyqin/.gradle/caches/transforms-4/2740f1e2c988d987f5637887fe946d3c/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/nancyqin/.gradle/caches/transforms-4/29dd69aea36408b37c5e4bdb78c51a64/transformed/jetified-tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/nancyqin/.gradle/caches/transforms-4/29dd69aea36408b37c5e4bdb78c51a64/transformed/jetified-tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.exifinterface:exifinterface:1.3.7] /Users/nancyqin/.gradle/caches/transforms-4/fee8734b0fe835b336eadd4485deca2c/transformed/exifinterface-1.3.7/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.exifinterface:exifinterface:1.3.7] /Users/nancyqin/.gradle/caches/transforms-4/fee8734b0fe835b336eadd4485deca2c/transformed/exifinterface-1.3.7/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/nancyqin/.gradle/caches/transforms-4/6a0431261a5f58dafe89fc15408cc456/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/nancyqin/.gradle/caches/transforms-4/6a0431261a5f58dafe89fc15408cc456/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.2.0] /Users/nancyqin/.gradle/caches/transforms-4/d33847ab19f59b154fa1c0b55937685b/transformed/core-runtime-2.2.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.2.0] /Users/nancyqin/.gradle/caches/transforms-4/d33847ab19f59b154fa1c0b55937685b/transformed/core-runtime-2.2.0/AndroidManifest.xml:20:5-44
+	android:targetSdkVersion
+		INJECTED from /Users/nancyqin/Downloads/fridge-tracker/portal-app/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/nancyqin/Downloads/fridge-tracker/portal-app/app/src/main/AndroidManifest.xml
+service#androidx.camera.core.impl.MetadataHolderService
+ADDED from [androidx.camera:camera-camera2:1.3.4] /Users/nancyqin/.gradle/caches/transforms-4/f4e54843bfb0150cb303af653ba91e33/transformed/jetified-camera-camera2-1.3.4/AndroidManifest.xml:24:9-33:19
+MERGED from [androidx.camera:camera-core:1.3.4] /Users/nancyqin/.gradle/caches/transforms-4/cb610fc2af703d3bbca24ef66ed51c4d/transformed/jetified-camera-core-1.3.4/AndroidManifest.xml:29:9-33:78
+MERGED from [androidx.camera:camera-core:1.3.4] /Users/nancyqin/.gradle/caches/transforms-4/cb610fc2af703d3bbca24ef66ed51c4d/transformed/jetified-camera-core-1.3.4/AndroidManifest.xml:29:9-33:78
+	tools:node
+		ADDED from [androidx.camera:camera-camera2:1.3.4] /Users/nancyqin/.gradle/caches/transforms-4/f4e54843bfb0150cb303af653ba91e33/transformed/jetified-camera-camera2-1.3.4/AndroidManifest.xml:29:13-31
+	android:enabled
+		ADDED from [androidx.camera:camera-camera2:1.3.4] /Users/nancyqin/.gradle/caches/transforms-4/f4e54843bfb0150cb303af653ba91e33/transformed/jetified-camera-camera2-1.3.4/AndroidManifest.xml:26:13-36
+	android:exported
+		ADDED from [androidx.camera:camera-camera2:1.3.4] /Users/nancyqin/.gradle/caches/transforms-4/f4e54843bfb0150cb303af653ba91e33/transformed/jetified-camera-camera2-1.3.4/AndroidManifest.xml:27:13-37
+	tools:ignore
+		ADDED from [androidx.camera:camera-camera2:1.3.4] /Users/nancyqin/.gradle/caches/transforms-4/f4e54843bfb0150cb303af653ba91e33/transformed/jetified-camera-camera2-1.3.4/AndroidManifest.xml:28:13-75
+	android:name
+		ADDED from [androidx.camera:camera-camera2:1.3.4] /Users/nancyqin/.gradle/caches/transforms-4/f4e54843bfb0150cb303af653ba91e33/transformed/jetified-camera-camera2-1.3.4/AndroidManifest.xml:25:13-75
+meta-data#androidx.camera.core.impl.MetadataHolderService.DEFAULT_CONFIG_PROVIDER
+ADDED from [androidx.camera:camera-camera2:1.3.4] /Users/nancyqin/.gradle/caches/transforms-4/f4e54843bfb0150cb303af653ba91e33/transformed/jetified-camera-camera2-1.3.4/AndroidManifest.xml:30:13-32:89
+	android:value
+		ADDED from [androidx.camera:camera-camera2:1.3.4] /Users/nancyqin/.gradle/caches/transforms-4/f4e54843bfb0150cb303af653ba91e33/transformed/jetified-camera-camera2-1.3.4/AndroidManifest.xml:32:17-86
+	android:name
+		ADDED from [androidx.camera:camera-camera2:1.3.4] /Users/nancyqin/.gradle/caches/transforms-4/f4e54843bfb0150cb303af653ba91e33/transformed/jetified-camera-camera2-1.3.4/AndroidManifest.xml:31:17-103
+activity#androidx.compose.ui.tooling.PreviewActivity
+ADDED from [androidx.compose.ui:ui-tooling-android:1.6.8] /Users/nancyqin/.gradle/caches/transforms-4/7051f105afd08b30475d52ac977fd3cd/transformed/jetified-ui-tooling-release/AndroidManifest.xml:23:9-25:39
+	android:exported
+		ADDED from [androidx.compose.ui:ui-tooling-android:1.6.8] /Users/nancyqin/.gradle/caches/transforms-4/7051f105afd08b30475d52ac977fd3cd/transformed/jetified-ui-tooling-release/AndroidManifest.xml:25:13-36
+	android:name
+		ADDED from [androidx.compose.ui:ui-tooling-android:1.6.8] /Users/nancyqin/.gradle/caches/transforms-4/7051f105afd08b30475d52ac977fd3cd/transformed/jetified-ui-tooling-release/AndroidManifest.xml:24:13-71
+provider#androidx.startup.InitializationProvider
+ADDED from [io.github.jan-tennert.supabase:storage-kt-android-debug:2.5.4] /Users/nancyqin/.gradle/caches/transforms-4/e39ddb6ad1c254082a588d2e324901e2/transformed/jetified-storage-kt-debug/AndroidManifest.xml:9:9-17:20
+MERGED from [io.github.jan-tennert.supabase:gotrue-kt-android-debug:2.5.4] /Users/nancyqin/.gradle/caches/transforms-4/e5cbb2ff7b473aaa7b6ec8b98818cb8d/transformed/jetified-gotrue-kt-debug/AndroidManifest.xml:9:9-17:20
+MERGED from [io.github.jan-tennert.supabase:gotrue-kt-android-debug:2.5.4] /Users/nancyqin/.gradle/caches/transforms-4/e5cbb2ff7b473aaa7b6ec8b98818cb8d/transformed/jetified-gotrue-kt-debug/AndroidManifest.xml:9:9-17:20
+MERGED from [androidx.emoji2:emoji2:1.3.0] /Users/nancyqin/.gradle/caches/transforms-4/0e4da39534f5a6aa8fe414d10f7ba090/transformed/jetified-emoji2-1.3.0/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.emoji2:emoji2:1.3.0] /Users/nancyqin/.gradle/caches/transforms-4/0e4da39534f5a6aa8fe414d10f7ba090/transformed/jetified-emoji2-1.3.0/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.8.3] /Users/nancyqin/.gradle/caches/transforms-4/8b708b774aae8fef50c3736291e0b4e2/transformed/jetified-lifecycle-process-2.8.3/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.8.3] /Users/nancyqin/.gradle/caches/transforms-4/8b708b774aae8fef50c3736291e0b4e2/transformed/jetified-lifecycle-process-2.8.3/AndroidManifest.xml:24:9-32:20
+MERGED from [com.russhwolf:multiplatform-settings-no-arg-android-debug:1.1.1] /Users/nancyqin/.gradle/caches/transforms-4/b9eb3f706fe63725441596e63410d4e9/transformed/jetified-multiplatform-settings-no-arg-debug/AndroidManifest.xml:24:9-32:20
+MERGED from [com.russhwolf:multiplatform-settings-no-arg-android-debug:1.1.1] /Users/nancyqin/.gradle/caches/transforms-4/b9eb3f706fe63725441596e63410d4e9/transformed/jetified-multiplatform-settings-no-arg-debug/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/nancyqin/.gradle/caches/transforms-4/87125e5750af9d2b08f92f0cfdc7a9e5/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/nancyqin/.gradle/caches/transforms-4/87125e5750af9d2b08f92f0cfdc7a9e5/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/nancyqin/.gradle/caches/transforms-4/2740f1e2c988d987f5637887fe946d3c/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:26:9-30:34
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/nancyqin/.gradle/caches/transforms-4/2740f1e2c988d987f5637887fe946d3c/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:26:9-30:34
+	tools:node
+		ADDED from [io.github.jan-tennert.supabase:storage-kt-android-debug:2.5.4] /Users/nancyqin/.gradle/caches/transforms-4/e39ddb6ad1c254082a588d2e324901e2/transformed/jetified-storage-kt-debug/AndroidManifest.xml:13:13-31
+	android:authorities
+		ADDED from [io.github.jan-tennert.supabase:storage-kt-android-debug:2.5.4] /Users/nancyqin/.gradle/caches/transforms-4/e39ddb6ad1c254082a588d2e324901e2/transformed/jetified-storage-kt-debug/AndroidManifest.xml:11:13-68
+	android:exported
+		ADDED from [io.github.jan-tennert.supabase:storage-kt-android-debug:2.5.4] /Users/nancyqin/.gradle/caches/transforms-4/e39ddb6ad1c254082a588d2e324901e2/transformed/jetified-storage-kt-debug/AndroidManifest.xml:12:13-37
+	android:name
+		ADDED from [io.github.jan-tennert.supabase:storage-kt-android-debug:2.5.4] /Users/nancyqin/.gradle/caches/transforms-4/e39ddb6ad1c254082a588d2e324901e2/transformed/jetified-storage-kt-debug/AndroidManifest.xml:10:13-67
+meta-data#io.github.jan.supabase.storage.SupabaseInitializer
+ADDED from [io.github.jan-tennert.supabase:storage-kt-android-debug:2.5.4] /Users/nancyqin/.gradle/caches/transforms-4/e39ddb6ad1c254082a588d2e324901e2/transformed/jetified-storage-kt-debug/AndroidManifest.xml:14:13-16:52
+	android:value
+		ADDED from [io.github.jan-tennert.supabase:storage-kt-android-debug:2.5.4] /Users/nancyqin/.gradle/caches/transforms-4/e39ddb6ad1c254082a588d2e324901e2/transformed/jetified-storage-kt-debug/AndroidManifest.xml:16:17-49
+	android:name
+		ADDED from [io.github.jan-tennert.supabase:storage-kt-android-debug:2.5.4] /Users/nancyqin/.gradle/caches/transforms-4/e39ddb6ad1c254082a588d2e324901e2/transformed/jetified-storage-kt-debug/AndroidManifest.xml:15:17-82
+meta-data#io.github.jan.supabase.gotrue.SupabaseInitializer
+ADDED from [io.github.jan-tennert.supabase:gotrue-kt-android-debug:2.5.4] /Users/nancyqin/.gradle/caches/transforms-4/e5cbb2ff7b473aaa7b6ec8b98818cb8d/transformed/jetified-gotrue-kt-debug/AndroidManifest.xml:14:13-16:52
+	android:value
+		ADDED from [io.github.jan-tennert.supabase:gotrue-kt-android-debug:2.5.4] /Users/nancyqin/.gradle/caches/transforms-4/e5cbb2ff7b473aaa7b6ec8b98818cb8d/transformed/jetified-gotrue-kt-debug/AndroidManifest.xml:16:17-49
+	android:name
+		ADDED from [io.github.jan-tennert.supabase:gotrue-kt-android-debug:2.5.4] /Users/nancyqin/.gradle/caches/transforms-4/e5cbb2ff7b473aaa7b6ec8b98818cb8d/transformed/jetified-gotrue-kt-debug/AndroidManifest.xml:15:17-81
+meta-data#androidx.emoji2.text.EmojiCompatInitializer
+ADDED from [androidx.emoji2:emoji2:1.3.0] /Users/nancyqin/.gradle/caches/transforms-4/0e4da39534f5a6aa8fe414d10f7ba090/transformed/jetified-emoji2-1.3.0/AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.emoji2:emoji2:1.3.0] /Users/nancyqin/.gradle/caches/transforms-4/0e4da39534f5a6aa8fe414d10f7ba090/transformed/jetified-emoji2-1.3.0/AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.3.0] /Users/nancyqin/.gradle/caches/transforms-4/0e4da39534f5a6aa8fe414d10f7ba090/transformed/jetified-emoji2-1.3.0/AndroidManifest.xml:30:17-75
+meta-data#androidx.lifecycle.ProcessLifecycleInitializer
+ADDED from [androidx.lifecycle:lifecycle-process:2.8.3] /Users/nancyqin/.gradle/caches/transforms-4/8b708b774aae8fef50c3736291e0b4e2/transformed/jetified-lifecycle-process-2.8.3/AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.lifecycle:lifecycle-process:2.8.3] /Users/nancyqin/.gradle/caches/transforms-4/8b708b774aae8fef50c3736291e0b4e2/transformed/jetified-lifecycle-process-2.8.3/AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.lifecycle:lifecycle-process:2.8.3] /Users/nancyqin/.gradle/caches/transforms-4/8b708b774aae8fef50c3736291e0b4e2/transformed/jetified-lifecycle-process-2.8.3/AndroidManifest.xml:30:17-78
+permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.13.1] /Users/nancyqin/.gradle/caches/transforms-4/16c1a9765e361675519feefd9d5c711c/transformed/core-1.13.1/AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.13.1] /Users/nancyqin/.gradle/caches/transforms-4/16c1a9765e361675519feefd9d5c711c/transformed/core-1.13.1/AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.13.1] /Users/nancyqin/.gradle/caches/transforms-4/16c1a9765e361675519feefd9d5c711c/transformed/core-1.13.1/AndroidManifest.xml:23:9-81
+permission#com.fridgetracker.app.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.13.1] /Users/nancyqin/.gradle/caches/transforms-4/16c1a9765e361675519feefd9d5c711c/transformed/core-1.13.1/AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.13.1] /Users/nancyqin/.gradle/caches/transforms-4/16c1a9765e361675519feefd9d5c711c/transformed/core-1.13.1/AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.13.1] /Users/nancyqin/.gradle/caches/transforms-4/16c1a9765e361675519feefd9d5c711c/transformed/core-1.13.1/AndroidManifest.xml:23:9-81
+uses-permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.13.1] /Users/nancyqin/.gradle/caches/transforms-4/16c1a9765e361675519feefd9d5c711c/transformed/core-1.13.1/AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.13.1] /Users/nancyqin/.gradle/caches/transforms-4/16c1a9765e361675519feefd9d5c711c/transformed/core-1.13.1/AndroidManifest.xml:26:22-94
+uses-permission#com.fridgetracker.app.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.13.1] /Users/nancyqin/.gradle/caches/transforms-4/16c1a9765e361675519feefd9d5c711c/transformed/core-1.13.1/AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.13.1] /Users/nancyqin/.gradle/caches/transforms-4/16c1a9765e361675519feefd9d5c711c/transformed/core-1.13.1/AndroidManifest.xml:26:22-94
+meta-data#com.russhwolf.settings.SettingsInitializer
+ADDED from [com.russhwolf:multiplatform-settings-no-arg-android-debug:1.1.1] /Users/nancyqin/.gradle/caches/transforms-4/b9eb3f706fe63725441596e63410d4e9/transformed/jetified-multiplatform-settings-no-arg-debug/AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [com.russhwolf:multiplatform-settings-no-arg-android-debug:1.1.1] /Users/nancyqin/.gradle/caches/transforms-4/b9eb3f706fe63725441596e63410d4e9/transformed/jetified-multiplatform-settings-no-arg-debug/AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [com.russhwolf:multiplatform-settings-no-arg-android-debug:1.1.1] /Users/nancyqin/.gradle/caches/transforms-4/b9eb3f706fe63725441596e63410d4e9/transformed/jetified-multiplatform-settings-no-arg-debug/AndroidManifest.xml:30:17-74
+meta-data#androidx.profileinstaller.ProfileInstallerInitializer
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/nancyqin/.gradle/caches/transforms-4/87125e5750af9d2b08f92f0cfdc7a9e5/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/nancyqin/.gradle/caches/transforms-4/87125e5750af9d2b08f92f0cfdc7a9e5/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/nancyqin/.gradle/caches/transforms-4/87125e5750af9d2b08f92f0cfdc7a9e5/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:30:17-85
+receiver#androidx.profileinstaller.ProfileInstallReceiver
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/nancyqin/.gradle/caches/transforms-4/87125e5750af9d2b08f92f0cfdc7a9e5/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:34:9-52:20
+	android:enabled
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/nancyqin/.gradle/caches/transforms-4/87125e5750af9d2b08f92f0cfdc7a9e5/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:37:13-35
+	android:exported
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/nancyqin/.gradle/caches/transforms-4/87125e5750af9d2b08f92f0cfdc7a9e5/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:38:13-36
+	android:permission
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/nancyqin/.gradle/caches/transforms-4/87125e5750af9d2b08f92f0cfdc7a9e5/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:39:13-57
+	android:directBootAware
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/nancyqin/.gradle/caches/transforms-4/87125e5750af9d2b08f92f0cfdc7a9e5/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:36:13-44
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/nancyqin/.gradle/caches/transforms-4/87125e5750af9d2b08f92f0cfdc7a9e5/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:35:13-76
+intent-filter#action:name:androidx.profileinstaller.action.INSTALL_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/nancyqin/.gradle/caches/transforms-4/87125e5750af9d2b08f92f0cfdc7a9e5/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:40:13-42:29
+action#androidx.profileinstaller.action.INSTALL_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/nancyqin/.gradle/caches/transforms-4/87125e5750af9d2b08f92f0cfdc7a9e5/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:41:17-91
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/nancyqin/.gradle/caches/transforms-4/87125e5750af9d2b08f92f0cfdc7a9e5/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:41:25-88
+intent-filter#action:name:androidx.profileinstaller.action.SKIP_FILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/nancyqin/.gradle/caches/transforms-4/87125e5750af9d2b08f92f0cfdc7a9e5/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:43:13-45:29
+action#androidx.profileinstaller.action.SKIP_FILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/nancyqin/.gradle/caches/transforms-4/87125e5750af9d2b08f92f0cfdc7a9e5/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:44:17-85
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/nancyqin/.gradle/caches/transforms-4/87125e5750af9d2b08f92f0cfdc7a9e5/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:44:25-82
+intent-filter#action:name:androidx.profileinstaller.action.SAVE_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/nancyqin/.gradle/caches/transforms-4/87125e5750af9d2b08f92f0cfdc7a9e5/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:46:13-48:29
+action#androidx.profileinstaller.action.SAVE_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/nancyqin/.gradle/caches/transforms-4/87125e5750af9d2b08f92f0cfdc7a9e5/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:47:17-88
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/nancyqin/.gradle/caches/transforms-4/87125e5750af9d2b08f92f0cfdc7a9e5/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:47:25-85
+intent-filter#action:name:androidx.profileinstaller.action.BENCHMARK_OPERATION
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/nancyqin/.gradle/caches/transforms-4/87125e5750af9d2b08f92f0cfdc7a9e5/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:49:13-51:29
+action#androidx.profileinstaller.action.BENCHMARK_OPERATION
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/nancyqin/.gradle/caches/transforms-4/87125e5750af9d2b08f92f0cfdc7a9e5/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:50:17-95
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/nancyqin/.gradle/caches/transforms-4/87125e5750af9d2b08f92f0cfdc7a9e5/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:50:25-92

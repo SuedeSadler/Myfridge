@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Scan receipt — Fridge Tracker</title>
+<link rel="stylesheet" href="styles.css">
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+<script src="config.js"></script>
+</head>
+<body>
+<div class="container">
+  <h1>Scan a receipt</h1>
+  <p class="muted">Take a photo or upload one — items get extracted automatically.</p>
+
+  <div id="captureStep" style="margin-top: 20px;">
+    <input type="file" id="fileInput" accept="image/*" capture="environment" style="display:none;">
+    <button id="captureBtn">Take or choose photo</button>
+  </div>
+
+  <div id="loadingStep" class="loading" style="display:none;">Reading your receipt…</div>
+
+  <div id="reviewStep" style="display:none; margin-top: 20px;">
+    <h2>Review items</h2>
+    <p class="muted" style="margin-bottom: 16px;">Fix anything that looks wrong before adding.</p>
+    <div id="itemRows"></div>
+    <button id="addRowBtn" class="secondary" style="margin-bottom: 16px;">+ Add another item</button>
+    <div id="confirmError" class="error" style="display:none;"></div>
+    <button id="confirmBtn">Add all to fridge</button>
+  </div>
+
+  <div id="doneStep" style="display:none; margin-top: 20px; text-align:center;">
+    <p style="font-size: 18px; font-weight: 600;">Added to your fridge.</p>
+    <a href="index.html"><button style="margin-top: 12px;">Back to fridge</button></a>
+  </div>
+</div>
+
+<nav class="nav">
+  <a href="index.html">Fridge</a>
+  <a href="scan.html" class="active">Scan receipt</a>
+  <a href="photos.html">Photo library</a>
+</nav>
+
+<script>
+  const supabase = window.supabase.createClient(SUPABASE_URL, SUPABASE_ANON_KEY);
+  let currentUser = null;
+  let extractedItems = [];
+
+  (async () => {
+    const { data: sessionData } = await supabase.auth.getSession();
+    if (!sessionData.session) { window.location.href = "login.html"; return; }
+    currentUser = sessionData.session.user;
+  })();
+
+  document.getElementById("captureBtn").addEventListener("click", () => {
+    document.getElementById("fileInput").click();
+  });
+
+  document.getElementById("fileInput").addEventListener("change", async (e) => {
+    const file = e.target.files[0];
+    if (!file) return;
+
+    document.getElementById("captureStep").style.display = "none";
+    document.getElementById("loadingStep").style.display = "block";
+
+    const base64 = await fileToBase64(file);
+
+    try {
+      const res = await fetch("/api/extract-receipt", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ imageBase64: base64 })
+      });
+      const data = await res.json();
+
+      document.getElementById("loadingStep").style.display = "none";
+
+      if (!res.ok) {
+        alert("Couldn't read the receipt: " + (data.error || "unknown error"));
+        document.getElementById("captureStep").style.display = "block";
+        return;
+      }
+
+      extractedItems = data.items || [];
+      renderItemRows();
+      document.getElementById("reviewStep").style.display = "block";
+    } catch (err) {
+      document.getElementById("loadingStep").style.display = "none";
+      document.getElementById("captureStep").style.display = "block";
+      alert("Something went wrong: " + err.message);
+    }
+  });
+
+  function fileToBase64(file) {
+    return new Promise((resolve, reject) => {
+      const reader = new FileReader();
+      reader.onload = () => resolve(reader.result);
+      reader.onerror = reject;
+      reader.readAsDataURL(file);
+    });
+  }
+
+  function renderItemRows() {
+    const container = document.getElementById("itemRows");
+    container.innerHTML = extractedItems.map((item, i) => `
+      <div class="card">
+        <div class="item-row">
+          <input type="text" value="${escapeHtml(item.name)}" data-idx="${i}" data-field="name" placeholder="Name">
+          <button class="remove-btn" data-remove="${i}">×</button>
+        </div>
+        <div class="item-row">
+          <input type="number" value="${item.quantity ?? 1}" data-idx="${i}" data-field="quantity" placeholder="Qty" step="any">
+          <input type="text" value="${escapeHtml(item.unit || '')}" data-idx="${i}" data-field="unit" placeholder="Unit">
+        </div>
+        <input type="text" value="${escapeHtml(item.category || '')}" data-idx="${i}" data-field="category" placeholder="Category">
+      </div>
+    `).join("");
+
+    container.querySelectorAll("input").forEach(input => {
+      input.addEventListener("input", (e) => {
+        const idx = parseInt(e.target.dataset.idx);
+        const field = e.target.dataset.field;
+        extractedItems[idx][field] = e.target.value;
+      });
+    });
+    container.querySelectorAll("[data-remove]").forEach(btn => {
+      btn.addEventListener("click", (e) => {
+        const idx = parseInt(e.target.dataset.remove);
+        extractedItems.splice(idx, 1);
+        renderItemRows();
+      });
+    });
+  }
+
+  document.getElementById("addRowBtn").addEventListener("click", () => {
+    extractedItems.push({ name: "", quantity: 1, unit: "", category: "" });
+    renderItemRows();
+  });
+
+  document.getElementById("confirmBtn").addEventListener("click", async () => {
+    const errorEl = document.getElementById("confirmError");
+    errorEl.style.display = "none";
+
+    const validItems = extractedItems.filter(item => item.name && item.name.trim());
+    if (validItems.length === 0) {
+      errorEl.textContent = "Add at least one item with a name.";
+      errorEl.style.display = "block";
+      return;
+    }
+
+    document.getElementById("confirmBtn").disabled = true;
+
+    try {
+      // Pull the user's photo library, then ask for AI-assisted matches
+      // against each extracted item name.
+      const { data: library } = await supabase
+        .from("item_photos")
+        .select("keyword, image_url")
+        .eq("user_id", currentUser.id);
+
+      const matchRes = await fetch("/api/match-photo", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({
+          itemNames: validItems.map(i => i.name),
+          library: library || []
+        })
+      });
+      const matchData = await matchRes.json();
+      const matches = matchData.matches || {};
+
+      const rows = validItems.map(item => ({
+        user_id: currentUser.id,
+        name: item.name.trim(),
+        quantity: parseFloat(item.quantity) || 1,
+        unit: item.unit || null,
+        category: item.category || null,
+        photo_url: matches[item.name] || null,
+        source: "receipt"
+      }));
+
+      const { error } = await supabase.from("inventory_items").insert(rows);
+      if (error) throw error;
+
+      document.getElementById("reviewStep").style.display = "none";
+      document.getElementById("doneStep").style.display = "block";
+    } catch (err) {
+      errorEl.textContent = "Couldn't add items: " + err.message;
+      errorEl.style.display = "block";
+      document.getElementById("confirmBtn").disabled = false;
+    }
+  });
+
+  function escapeHtml(str) {
+    const div = document.createElement("div");
+    div.textContent = str;
+    return div.innerHTML;
+  }
+</script>
+</body>
+</html>
